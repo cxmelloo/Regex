@@ -1,0 +1,58 @@
+body {
+	background-color: #ccb7ae;
+}
+
+div {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	max-width: 400px;
+	background-color: #4a4e69;
+	padding: 50px 30px;
+	border-radius: 20px;
+}
+
+h1 {
+	color: #ccb7ae;
+}
+
+input,
+button,
+select {
+	background-color: #ccb7ae;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 8px;
+	outline: none;
+	color: white;
+}
+
+button,
+select {
+	color: #565264;
+	opacity: 0.8;
+	cursor: pointer;
+	transition: all 0.4s ease;
+}
+
+button:hover {
+	background-color: #d6cfcb;
+}
+
+button:active {
+	opacity: 0.6;
+}
+
+input {
+  border: 2px solid gray;
+  outline: none;
+}
+
+input.valid {
+	border: 3px solid green;
+}
+
+input.invalid {
+  border: 3px solid red;
+}
